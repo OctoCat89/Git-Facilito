@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--JQuery-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<meta charset="utf-8">
+	<!--Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+	<!--JavaScript-->
+	<script src="javascript.js" language="javascript" type="text/javascript"></script>
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Reto2</title>
+
+	<script>
+$(document).ready(function(){
+	$("a").hide();
+  $("h1").mouseenter(function(){
+    $("a").toggle("slow");
+    });
+});
+</script>
+
+</head>
+
+<body>
+
+<div>
+
+<div class="slider" id="main-slider"><!-- outermost container element -->
+	<div class="slider-wrapper"><!-- innermost wrapper element -->
+		<img src="images/perro 1.jpg" alt="First" class="slide" /><!-- slides -->
+		<img src="images/perro 2.jpg" alt="Second" class="slide" />
+		<img src="images/perro 3.jpg" alt="Third" class="slide" />
+		<img src="images/perro 4.jpg" alt="Third" class="slide" />
+	</div>
+</div>	
+
+	<div class="col-md-4 center-block quitar-float text-center espacio-arriba id=principal">
+		
+		<h1 class="Pacifico grande azul">Refugio para perros</h1>
+		<h2 class=>Ayúdalos a conseguir un buen hogar</h2>
+		<nav>
+		<h4>
+		<a href="http://google.com" class="espacio-derecha">Menú</a>
+
+		<a href="http://google.com" class="espacio-derecha">Historia</a>
+		
+		<a href="http://google.com">Contáctanos</a>
+		
+		</h4>
+		</nav>
+	</div>
+
+</body>
+</html>
